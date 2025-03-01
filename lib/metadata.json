@@ -1,6 +1,6 @@
 {
   "vaultName": "KC Heroes",
-  "lastExport": 1738626006308,
+  "lastExport": 1740813709851,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title show-ribbon hider-meta check-color check-bg dnd",
   "useCustomHeadContent": false,
@@ -35,7 +35,7 @@
     "NPCs/Good Guys/Paul Hood.md",
     "NPCs/Good Guys/The Kid.md",
     "NPCs/Good Guys/Tom.md",
-    "PCs/Automatic Man.md",
+    "PCs/Automatic Man 2.0.md",
     "PCs/Blurry.md",
     "PCs/Manifester.md",
     "PCs/Mantis Shrimp.md",
@@ -54,7 +54,13 @@
     "Sessions/Session 11 - December 17, 2023.md",
     "Sessions/Session 12 - January 20, 2024.md",
     "Sessions/Session 13 - February 3, 2024.md",
+    "Sessions/Session x - date.md",
     "KC Heroes.md",
+    "lib/media/wwii-automatic-man1.jpg",
+    "lib/media/blurry2.png",
+    "lib/media/wwii-manifester2.jpeg",
+    "lib/media/wwii-mantis-shrimp1.jpg",
+    "lib/media/templar6.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -85,12 +91,7 @@
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "lib/media/wwii-automatic-man1.jpg",
-    "lib/media/blurry2.png",
-    "lib/media/wwii-manifester2.jpeg",
-    "lib/media/wwii-mantis-shrimp1.jpg",
-    "lib/media/templar6.png"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -294,41 +295,33 @@
       "exportedPath": "npcs/good-guys/tom.html",
       "dependencies": []
     },
-    "PCs/Automatic Man.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 822,
-      "exportedPath": "pcs/automatic-man.html",
-      "dependencies": [
-        "lib/media/wwii-automatic-man1.jpg"
-      ]
-    },
     "PCs/Blurry.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 811,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 1173,
       "exportedPath": "pcs/blurry.html",
       "dependencies": [
         "lib/media/blurry2.png"
       ]
     },
     "PCs/Manifester.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 874,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 902,
       "exportedPath": "pcs/manifester.html",
       "dependencies": [
         "lib/media/wwii-manifester2.jpeg"
       ]
     },
     "PCs/Mantis Shrimp.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 859,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 1670,
       "exportedPath": "pcs/mantis-shrimp.html",
       "dependencies": [
         "lib/media/wwii-mantis-shrimp1.jpg"
       ]
     },
     "PCs/Templar.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 3454,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 3458,
       "exportedPath": "pcs/templar.html",
       "dependencies": [
         "lib/media/templar6.png"
@@ -347,26 +340,26 @@
       "dependencies": []
     },
     "Sessions/Session 3 - December 18, 2022.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 7569,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 7577,
       "exportedPath": "sessions/session-3-december-18,-2022.html",
       "dependencies": []
     },
     "Sessions/Session 4 - January 15, 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 8012,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 8024,
       "exportedPath": "sessions/session-4-january-15,-2023.html",
       "dependencies": []
     },
     "Sessions/Session 5 - January 27, 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 9858,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 9878,
       "exportedPath": "sessions/session-5-january-27,-2023.html",
       "dependencies": []
     },
     "Sessions/Session 6 - February 26. 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 5767,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 5793,
       "exportedPath": "sessions/session-6-february-26.-2023.html",
       "dependencies": []
     },
@@ -377,14 +370,14 @@
       "dependencies": []
     },
     "Sessions/Session 7 - April 14, 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 10086,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 10098,
       "exportedPath": "sessions/session-7-april-14,-2023.html",
       "dependencies": []
     },
     "Sessions/Session 8 - November 12, 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 5198,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 5202,
       "exportedPath": "sessions/session-8-november-12,-2023.html",
       "dependencies": []
     },
@@ -395,8 +388,8 @@
       "dependencies": []
     },
     "Sessions/Session 10 - December 10, 2023.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 6336,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 6348,
       "exportedPath": "sessions/session-10-december-10,-2023.html",
       "dependencies": []
     },
@@ -407,235 +400,235 @@
       "dependencies": []
     },
     "Sessions/Session 12 - January 20, 2024.md": {
-      "modifiedTime": 1738621540558,
-      "sourceSize": 10549,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 10553,
       "exportedPath": "sessions/session-12-january-20,-2024.html",
       "dependencies": []
     },
     "Sessions/Session 13 - February 3, 2024.md": {
-      "modifiedTime": 1738625847065,
-      "sourceSize": 2675,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 2679,
       "exportedPath": "sessions/session-13-february-3,-2024.html",
       "dependencies": []
     },
     "KC Heroes.md": {
-      "modifiedTime": 1738626006308,
-      "sourceSize": 1055,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 1059,
       "exportedPath": "kc-heroes.html",
       "dependencies": []
     },
     "lib/media/wwii-automatic-man1.jpg": {
-      "modifiedTime": 1738621540558,
+      "modifiedTime": 1740813709851,
       "sourceSize": 633362,
       "exportedPath": "lib/media/wwii-automatic-man1.jpg",
       "dependencies": []
     },
     "lib/media/blurry2.png": {
-      "modifiedTime": 1738621540558,
+      "modifiedTime": 1740813709851,
       "sourceSize": 701106,
       "exportedPath": "lib/media/blurry2.png",
       "dependencies": []
     },
     "lib/media/wwii-manifester2.jpeg": {
-      "modifiedTime": 1738621540558,
+      "modifiedTime": 1740813709851,
       "sourceSize": 55102,
       "exportedPath": "lib/media/wwii-manifester2.jpeg",
       "dependencies": []
     },
     "lib/media/wwii-mantis-shrimp1.jpg": {
-      "modifiedTime": 1738621540558,
+      "modifiedTime": 1740813709851,
       "sourceSize": 554222,
       "exportedPath": "lib/media/wwii-mantis-shrimp1.jpg",
       "dependencies": []
     },
     "lib/media/templar6.png": {
-      "modifiedTime": 1738621540558,
+      "modifiedTime": 1740813709851,
       "sourceSize": 2024950,
       "exportedPath": "lib/media/templar6.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1738626006308,
-      "sourceSize": 40369,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 41075,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1738626006308,
-      "sourceSize": 4400,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 4460,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1738626006308,
-      "sourceSize": 137228,
+      "modifiedTime": 1740813709851,
+      "sourceSize": 137305,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 4524,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 722641,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 268,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1738626006308,
+      "modifiedTime": 1740813709851,
       "sourceSize": 5140927,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -644,6 +637,20 @@
       "modifiedTime": 1738625847065,
       "sourceSize": 0,
       "exportedPath": "npcs/good-guys/deric-brunch.html",
+      "dependencies": []
+    },
+    "PCs/Automatic Man 2.0.md": {
+      "modifiedTime": 1740813709851,
+      "sourceSize": 1393,
+      "exportedPath": "pcs/automatic-man-2.0.html",
+      "dependencies": [
+        "lib/media/wwii-automatic-man1.jpg"
+      ]
+    },
+    "Sessions/Session x - date.md": {
+      "modifiedTime": 1740813709851,
+      "sourceSize": 46,
+      "exportedPath": "sessions/session-x-date.html",
       "dependencies": []
     }
   }
