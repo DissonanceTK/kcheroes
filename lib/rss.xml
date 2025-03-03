@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KC Heroes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://kcheroes.grognards.rocks/</link><image><url>https://kcheroes.grognards.rocks/lib/media/favicon.png</url><title>KC Heroes</title><link>https://kcheroes.grognards.rocks/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 01 Mar 2025 16:47:41 GMT</lastBuildDate><atom:link href="https://kcheroes.grognards.rocks/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 01 Mar 2025 16:47:41 GMT</pubDate><copyright><![CDATA[Todd Keyser]]></copyright><ttl>60</ttl><dc:creator>Todd Keyser</dc:creator><item><title><![CDATA[Automatic Man 2.0]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KC Heroes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://kcheroes.grognards.rocks/</link><image><url>https://kcheroes.grognards.rocks/lib/media/favicon.png</url><title>KC Heroes</title><link>https://kcheroes.grognards.rocks/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 03 Mar 2025 15:49:31 GMT</lastBuildDate><atom:link href="https://kcheroes.grognards.rocks/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 03 Mar 2025 15:49:31 GMT</pubDate><copyright><![CDATA[Todd Keyser]]></copyright><ttl>60</ttl><dc:creator>Todd Keyser</dc:creator><item><title><![CDATA[Automatic Man 2.0]]></title><description><![CDATA[ 
  <br>Infobox
 
 <br>Infobox
@@ -11,9 +11,9 @@
 <br>“Steel” Skin:  All Damage Reduced by 4 - Mastery: 0
 <br>Super Strength - Mastery: 0
 
-<br>1 SP: Strength roll to do ultimate damage plus strength
-<br>2 SP: Do a feat of ridiculous strength, including super leap
-<br>3 SP: Do a feat of absurd, ridiculous strength
+<br>1 SP: Strength roll to do ultimate damage plus strength.
+<br>2 SP: Do a feat of ridiculous strength, including super leap.
+<br>3 SP: Do a feat of absurd, ridiculous strength.
 
 
 <br>Effort:<br>
@@ -35,7 +35,7 @@
 <br>Disguise Kit: Easy Intelligence roll for success
 <br>Vulnerability:<br>
 <br>Magnetism:  Exposure, Stun
-]]></description><link>https://kcheroes.grognards.rocks/pcs/automatic-man-2.0.html</link><guid isPermaLink="false">PCs/Automatic Man 2.0.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 16:47:19 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-automatic-man1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-automatic-man1.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Blurry]]></title><description><![CDATA[ 
+]]></description><link>https://kcheroes.grognards.rocks/pcs/automatic-man-2.0.html</link><guid isPermaLink="false">PCs/Automatic Man 2.0.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Mon, 03 Mar 2025 15:48:18 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-automatic-man1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-automatic-man1.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Blurry]]></title><description><![CDATA[ 
  <br>Infobox
 
 <br>Infobox
@@ -46,21 +46,24 @@
 <br>Powers:<br>
 <br>Phasing - Mastery: 0
 
-<br>1 SP: 
-<br>2 SP: 
-<br>3 SP: 
+<br>1 SP: Make a NEAR MOVE in phased form, passing through solids.
+<br>2 SP: Use phasing in combat to avoid an attack. When you are hit, roll CON. Elect to instantly phase, avoiding any damage or STUN.
+<br>3 SP: With a CON roll on your TURN, extend phase POWER to another person or object up to bus size. With a normal roll, phase it for 1 ROUND. With a HARD roll, phase it for 1D4 ROUNDS. If an enemy is phased into solid matter, they take ULTIMATE damage and are forced outward.
 
 
 <br>Regeneration - Mastery: 0
 
-<br>1 SP: 
-<br>2 SP: 
-<br>with an additional 2 SP Power, Blurry can heal others for 1d4+1 HP
+<br>1 SP: Shrug off either the entre HP or SP inflicted on you in the previous ROUND with a CON roll.
+<br>2 SP: Roll CON to recover to full SP or HP.
+
+<br>with an additional 2 SP Power, Blurry can heal others for 1d4+1 HP.
+
+
 
 
 <br>Super Speed - Mastery: 0
 
-<br>1 SP: 
+<br>1 SP: Rules of distance for movement do not apply to you. MOVE as far as you want on your TURN.
 
 
 <br>Effort Skills:<br>
@@ -84,7 +87,110 @@
 <br>Young, brave, wants to be part of a team, impressed by other Heroes
 <br>Disadvantage:<br>
 <br>Cannot keep gear when phased
-]]></description><link>https://kcheroes.grognards.rocks/pcs/blurry.html</link><guid isPermaLink="false">PCs/Blurry.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 06:33:04 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/blurry2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/blurry2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Manifester]]></title><description><![CDATA[ 
+]]></description><link>https://kcheroes.grognards.rocks/pcs/blurry.html</link><guid isPermaLink="false">PCs/Blurry.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Mon, 03 Mar 2025 15:47:28 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/blurry2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/blurry2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mantis Shrimp]]></title><description><![CDATA[ 
+ <br>Infobox
+
+<br>Infobox
+
+<img alt="cover hsmall" src="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg">
+
+
+<br>Powers:<br>
+<br>Shrinking - Mastery: 0
+
+<br>1 SP: +3 defense against ranged attacks (continuous power*).
+<br>2 SP: +1d8 damage to uppercut punch and no longer shrunk.
+<br>3 SP: +6 defense (to a max. of 20) against all attacks, except area attacks.
+
+
+<br>Super Strength - Mastery: 0
+
+<br>1 SP: Strength roll to do ultimate damage plus strength.
+<br>2 SP: Do a feat of ridiculous strength, including super leap.
+<br>3 SP: Do a feat of absurd, ridiculous strength.
+
+
+<br>Tough - Mastery: 0
+
+<br>+10 hit points, already added into the total above.
+
+
+<br>Effort:<br>
+<br>Basic: 2
+<br>Tools: 
+<br>Guns: 
+<br>Energy &amp; Magic: 1
+<br>Ultimate: 2
+<br>Properties:<br>
+<br>Armor +3 (Natural and breakable, Defense 17 with Armor and 14 without)
+<br>Impact Resistant
+<br>IR, UV and Enhanced Vision (perception checks with vision are Easy even in darkness)
+<br>Water Breathing
+<br>Xenochemical immune to poison and gas
+<br>Unusual Appearance (impose “distracted or horrified” condition with CHA roll)
+<br>Loot:<br>
+<br>
+<br>Equipment:<br>
+<br>Micro Comms
+<br>Vulnerability:<br>
+<br>Steam (Irrational Fear)
+<br>* No need to spend additional SP once shrunk.  1 SP to grow back to “man” size.]]></description><link>https://kcheroes.grognards.rocks/pcs/mantis-shrimp.html</link><guid isPermaLink="false">PCs/Mantis Shrimp.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Mon, 03 Mar 2025 15:48:58 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Templar]]></title><description><![CDATA[ 
+ <br>Infobox
+
+<br>Infobox
+
+<img alt="cover hsmall" src="https://kcheroes.grognards.rocks/lib/media/templar6.png">
+
+
+<br>Powers:<br>
+<br>Killshot - Mastery: 0
+
+<br>1 SP: Hit a target with no roll, regardless of the situation.
+<br>2 SP: Hit 1D8 targets with a single motion and no roll.
+<br>3 SP: Drop a single target to 0 HP with a DEX roll.
+
+
+<br>Super Senses - Mastery: +1
+
+<br>1 SP: Enhanced sensory abilities over a range of 5 miles.
+<br>2 SP: Discern detailed information from touching a surface, person, or object.
+
+
+<br>Lucky - Mastery: 0
+
+<br>1 SP: Re-roll of any roll -- ATTEMPT or EFFORT.
+
+
+<br>Effort:<br>
+<br>Basic (Weapons): 1
+<br>Tools: 
+<br>Guns: 3
+<br>Energy &amp; Magic: 
+<br>Ultimate: 
+<br>Properties:<br>
+<br>Ammo for Days
+<br>War Zone
+<br>Super Car
+<br>Loot:<br>
+<br>Arcane Cartridge
+<br>Equipment:<br>
+<br>Micro Comms
+<br>Thumper Pistol
+<br>Team Suit
+<br>10/12 exploding bullets: deliver ultimate effort
+<br>Background:<br>
+<br>Descendent of Timothy Murphy -- American sniper in the Revolutionary War.
+<br>U.S. Army Ranger Sniper, DoD Military Experiment, and Super Soldier.
+<br>Left the army after a psychotic break during a covert op involving civilians.
+<br>Moved to Kansas City to disappear and start over.
+<br>Recruited into Veritas Aeterna while seeking counseling and absolution.
+<br>The Order of Eternal Truth:<br>
+Papal bull Lux in Tenebris (Light in Darkness) established Ordo Veritas Aeterna (the Order of Eternal Truth). The Order was established as a response to the current challenging times, ordained to bring light, guidance, and protection where it is most needed. Lux in Tenebris is seen as a pivotal declaration, empowering and legitimizing the order's sacred duty to act as guardians of the faith and warriors of light amidst the darkness of the world.<br>Hierarchy:<br>
+<br>Ordo Veritas Aeterna (Order of Eternal Truth): The overarching order dedicated to uncovering, protecting, and preserving divine truths. This order serves as the spiritual and ideological foundation for all its members and their actions. It is the modern incarnation of the Knights Templar.
+<br>Militis Lucis Divinae (Knights of the Divine Light): The militant arm of the Veritas Aeterna. It is composed of knights and warriors who actively defend the order's principles and take on missions that require martial prowess. They are the protectors of the faith, ensuring that the divine mission is upheld through strength and valor.
+<br>Umbrae Custos Divinae (Guardian Shadows of the Divine): A clandestine unit within the Militis Lucis Divinae, specializing in stealth, espionage, and assassination. This elite group operates in the shadows to carry out the most sensitive and critical missions that require a discreet touch or direct action against threats to the order.
+<br>Bellator Umbrae (Warrior of the Shadow): A member of the Umbrae Custos Divinae, a "Shadow Warrior" skilled in the arts of stealth, combat, and strategy. These individuals are the unseen defenders of the order, executing tasks that require a blend of martial skill and clandestine operation.
+]]></description><link>https://kcheroes.grognards.rocks/pcs/templar.html</link><guid isPermaLink="false">PCs/Templar.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Mon, 03 Mar 2025 15:49:19 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/templar6.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/templar6.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Manifester]]></title><description><![CDATA[ 
  <br>Infobox
 
 <br>Infobox
@@ -127,110 +233,7 @@
 <br>Micro Comms
 <br>Background:<br>
 <br>Interesting stuff goes here
-]]></description><link>https://kcheroes.grognards.rocks/pcs/manifester.html</link><guid isPermaLink="false">PCs/Manifester.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 06:34:47 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-manifester2.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-manifester2.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mantis Shrimp]]></title><description><![CDATA[ 
- <br>Infobox
-
-<br>Infobox
-
-<img alt="cover hsmall" src="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg">
-
-
-<br>Powers:<br>
-<br>Shrinking - Mastery: 0
-
-<br>1 SP: +3 defense against ranged attacks (continuous power*)
-<br>2 SP: +1d8 damage to uppercut punch and no longer shrunk
-<br>3 SP: +6 defense (to a max. of 20) against all attacks, except area attacks
-
-
-<br>Super Strength - Mastery: 0
-
-<br>1 SP: Strength roll to do ultimate damage plus strength
-<br>2 SP: Do a feat of ridiculous strength, including super leap
-<br>3 SP: Do a feat of absurd, ridiculous strength
-
-
-<br>Tough - Mastery: 0
-
-<br>(+10 hit points, already added into the total above)
-
-
-<br>Effort:<br>
-<br>Basic: 2
-<br>Tools: 
-<br>Guns: 
-<br>Energy &amp; Magic: 1
-<br>Ultimate: 2
-<br>Properties:<br>
-<br>Armor +3 (Natural and breakable, Defense 17 with Armor and 14 without)
-<br>Impact Resistant
-<br>IR, UV and Enhanced Vision (perception checks with vision are Easy even in darkness)
-<br>Water Breathing
-<br>Xenochemical immune to poison and gas
-<br>Unusual Appearance (impose “distracted or horrified” condition with CHA roll)
-<br>Loot:<br>
-<br>
-<br>Equipment:<br>
-<br>Micro Comms
-<br>Vulnerability:<br>
-<br>Steam (Irrational Fear)
-<br>* No need to spend additional SP once shrunk.  1 SP to grow back to “man” size.]]></description><link>https://kcheroes.grognards.rocks/pcs/mantis-shrimp.html</link><guid isPermaLink="false">PCs/Mantis Shrimp.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 06:26:48 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-mantis-shrimp1.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Templar]]></title><description><![CDATA[ 
- <br>Infobox
-
-<br>Infobox
-
-<img alt="cover hsmall" src="https://kcheroes.grognards.rocks/lib/media/templar6.png">
-
-
-<br>Powers:<br>
-<br>Killshot - Mastery: 0
-
-<br>1 SP: Hit a target with no roll, regardless of the situation.
-<br>2 SP: Hit 1D8 targets with a single motion and no roll.
-<br>3 SP: Drop a single target to 0 HP with a DEX roll.
-
-
-<br>Super Senses - Mastery: +1
-
-<br>1 SP: Enhanced sensory abilities over a range of 5 miles.
-<br>2 SP: Discern detailed information from touching a surface, person, or object.
-
-
-<br>Lucky - Mastery: 0
-
-<br>1 SP: Re-roll of any roll -- ATTEMPT or EFFORT
-
-
-<br>Effort:<br>
-<br>Basic (Weapons): 1
-<br>Tools: 
-<br>Guns: 3
-<br>Energy &amp; Magic: 
-<br>Ultimate: 
-<br>Properties:<br>
-<br>Ammo for Days
-<br>War Zone
-<br>Super Car
-<br>Loot:<br>
-<br>Arcane Cartridge
-<br>Equipment:<br>
-<br>Micro Comms
-<br>Thumper Pistol
-<br>Team Suit
-<br>10/12 exploding bullets: deliver ultimate effort
-<br>Background:<br>
-<br>Descendent of Timothy Murphy -- American sniper in the Revolutionary War.
-<br>U.S. Army Ranger Sniper, DoD Military Experiment, and Super Soldier.
-<br>Left the army after a psychotic break during a covert op involving civilians.
-<br>Moved to Kansas City to disappear and start over.
-<br>Recruited into Veritas Aeterna while seeking counseling and absolution.
-<br>The Order of Eternal Truth:<br>
-Papal bull Lux in Tenebris (Light in Darkness) established Ordo Veritas Aeterna (the Order of Eternal Truth). The Order was established as a response to the current challenging times, ordained to bring light, guidance, and protection where it is most needed. Lux in Tenebris is seen as a pivotal declaration, empowering and legitimizing the order's sacred duty to act as guardians of the faith and warriors of light amidst the darkness of the world.<br>Hierarchy:<br>
-<br>Ordo Veritas Aeterna (Order of Eternal Truth): The overarching order dedicated to uncovering, protecting, and preserving divine truths. This order serves as the spiritual and ideological foundation for all its members and their actions. It is the modern incarnation of the Knights Templar.
-<br>Militis Lucis Divinae (Knights of the Divine Light): The militant arm of the Veritas Aeterna. It is composed of knights and warriors who actively defend the order's principles and take on missions that require martial prowess. They are the protectors of the faith, ensuring that the divine mission is upheld through strength and valor.
-<br>Umbrae Custos Divinae (Guardian Shadows of the Divine): A clandestine unit within the Militis Lucis Divinae, specializing in stealth, espionage, and assassination. This elite group operates in the shadows to carry out the most sensitive and critical missions that require a discreet touch or direct action against threats to the order.
-<br>Bellator Umbrae (Warrior of the Shadow): A member of the Umbrae Custos Divinae, a "Shadow Warrior" skilled in the arts of stealth, combat, and strategy. These individuals are the unseen defenders of the order, executing tasks that require a blend of martial skill and clandestine operation.
-]]></description><link>https://kcheroes.grognards.rocks/pcs/templar.html</link><guid isPermaLink="false">PCs/Templar.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 06:24:23 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/templar6.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/templar6.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Session 3 - December 18, 2022]]></title><description><![CDATA[ 
+]]></description><link>https://kcheroes.grognards.rocks/pcs/manifester.html</link><guid isPermaLink="false">PCs/Manifester.md</guid><dc:creator><![CDATA[Todd Keyser]]></dc:creator><pubDate>Sat, 01 Mar 2025 06:34:47 GMT</pubDate><enclosure url="https://kcheroes.grognards.rocks/lib/media/wwii-manifester2.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://kcheroes.grognards.rocks/lib/media/wwii-manifester2.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Session 3 - December 18, 2022]]></title><description><![CDATA[ 
  <br><br>In-Game Date: April 11, 2022<br>
 Dimension: 24<br>Key Events:<br>
 <br>Continued Chaos from Previous Session: After <a data-href="Mark Renallo" href="https://kcheroes.grognards.rocks/npcs/bad-guys/mark-renallo.html" class="internal-link" target="_self" rel="noopener nofollow">Mark Renallo</a>’s brunch with <a data-href="Mantis Shrimp" href="https://kcheroes.grognards.rocks/pcs/mantis-shrimp.html" class="internal-link" target="_self" rel="noopener nofollow">Mantis Shrimp</a>, chaos erupts as Mantis resizes under a BMW, causing it to flip over two individuals handling a weapon transaction. The BMW crashes, and gunshots ensue.
