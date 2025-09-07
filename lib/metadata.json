@@ -1,26 +1,11 @@
 {
   "vaultName": "KC Heroes",
-  "lastExport": 1757276935200,
+  "lastExport": 1757277319781,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title show-ribbon hider-meta check-color check-bg dnd",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Assests/Images/Blurry1.png",
-    "Assests/Images/Blurry2.png",
-    "Assests/Images/Blurry3.png",
-    "Assests/Images/Clubhouse1.jpg",
-    "Assests/Images/Clubhouse2.jpg",
-    "Assests/Images/Dissonance.png",
-    "Assests/Images/ICRPG quick reference guide.webp",
-    "Assests/Images/Paul Hood - Super Attorney.png",
-    "Assests/Images/Templar6.png",
-    "Assests/Images/Templar7.png",
-    "Assests/Images/WWII - Automatic Man1.jpg",
-    "Assests/Images/WWII - Automatic Man2.png",
-    "Assests/Images/WWII - Manifester1.jpeg",
-    "Assests/Images/WWII - Manifester2.jpeg",
-    "Assests/Images/WWII - Mantis Shrimp1.jpg",
     "NPCs/Bad Guys/Air Hog.md",
     "NPCs/Bad Guys/Bandwidth.md",
     "NPCs/Bad Guys/Bulltoad.md",
@@ -79,7 +64,6 @@
     "Sessions/Session 13 - February 3, 2024.md",
     "Sessions/Session x - date.md",
     "KC Heroes.md",
-    "lib/media/dissonance.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -113,6 +97,7 @@
     "lib/styles/snippets.css",
     "lib/media/wwii-automatic-man1.jpg",
     "lib/media/blurry2.png",
+    "lib/media/dissonance.png",
     "lib/media/wwii-manifester2.jpeg",
     "lib/media/wwii-mantis-shrimp1.jpg",
     "lib/media/templar6.png"
@@ -472,187 +457,187 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 63873,
+      "modifiedTime": 1757277319781,
+      "sourceSize": 48998,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 4497,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 4524,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 722641,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 268,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1757276935200,
+      "modifiedTime": 1757277319781,
       "sourceSize": 5140927,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -731,96 +716,6 @@
       "modifiedTime": 1757276935200,
       "sourceSize": 2494351,
       "exportedPath": "lib/media/dissonance.png",
-      "dependencies": []
-    },
-    "Assests/Images/Blurry1.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 701106,
-      "exportedPath": "assests/images/blurry1.png",
-      "dependencies": []
-    },
-    "Assests/Images/Blurry2.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 701106,
-      "exportedPath": "assests/images/blurry2.png",
-      "dependencies": []
-    },
-    "Assests/Images/Blurry3.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 456366,
-      "exportedPath": "assests/images/blurry3.png",
-      "dependencies": []
-    },
-    "Assests/Images/Clubhouse1.jpg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 3416282,
-      "exportedPath": "assests/images/clubhouse1.jpg",
-      "dependencies": []
-    },
-    "Assests/Images/Clubhouse2.jpg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 3373908,
-      "exportedPath": "assests/images/clubhouse2.jpg",
-      "dependencies": []
-    },
-    "Assests/Images/Dissonance.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 2494351,
-      "exportedPath": "assests/images/dissonance.png",
-      "dependencies": []
-    },
-    "Assests/Images/ICRPG quick reference guide.webp": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 404564,
-      "exportedPath": "assests/images/icrpg-quick-reference-guide.webp",
-      "dependencies": []
-    },
-    "Assests/Images/Paul Hood - Super Attorney.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 1980540,
-      "exportedPath": "assests/images/paul-hood-super-attorney.png",
-      "dependencies": []
-    },
-    "Assests/Images/Templar6.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 2024950,
-      "exportedPath": "assests/images/templar6.png",
-      "dependencies": []
-    },
-    "Assests/Images/Templar7.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 3020476,
-      "exportedPath": "assests/images/templar7.png",
-      "dependencies": []
-    },
-    "Assests/Images/WWII - Automatic Man1.jpg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 633362,
-      "exportedPath": "assests/images/wwii-automatic-man1.jpg",
-      "dependencies": []
-    },
-    "Assests/Images/WWII - Automatic Man2.png": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 767875,
-      "exportedPath": "assests/images/wwii-automatic-man2.png",
-      "dependencies": []
-    },
-    "Assests/Images/WWII - Manifester1.jpeg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 56435,
-      "exportedPath": "assests/images/wwii-manifester1.jpeg",
-      "dependencies": []
-    },
-    "Assests/Images/WWII - Manifester2.jpeg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 55102,
-      "exportedPath": "assests/images/wwii-manifester2.jpeg",
-      "dependencies": []
-    },
-    "Assests/Images/WWII - Mantis Shrimp1.jpg": {
-      "modifiedTime": 1757276935200,
-      "sourceSize": 554222,
-      "exportedPath": "assests/images/wwii-mantis-shrimp1.jpg",
       "dependencies": []
     }
   }
