@@ -1,0 +1,189 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Session 11</title>
+<base href="..">
+<meta name="pathname" content="sessions/session-11.html">
+<meta name="description" content="KC Heroes - Session 11">
+<meta property="og:title" content="Session 11">
+<meta property="og:description" content="KC Heroes - Session 11">
+<meta property="og:type" content="website">
+<meta property="og:url" content="sessions/session-11.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="KC Heroes"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager is-hidden-frameless show-inline-title show-ribbon sidebar-float-bottom check-color check-bg dnd is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event allow-fold-headings allow-fold-lists show-indentation-guide show-properties is-readable-line-width" data-type="markdown"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">title</span><span class="token punctuation">:</span> <span class="token string">"Session 11"</span>
+<span class="token key atrule">session</span><span class="token punctuation">:</span> <span class="token number">11</span>
+<span class="token key atrule">in_game_date</span><span class="token punctuation">:</span> <span class="token string">"April 11, 2022"</span>
+<span class="token key atrule">session_date</span><span class="token punctuation">:</span> <span class="token string">"December 17, 2023"</span>
+<span class="token key atrule">dimension</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">location</span><span class="token punctuation">:</span> <span class="token string">"Kansas City – West Bottoms"</span>
+<span class="token key atrule">weather</span><span class="token punctuation">:</span> <span class="token string">"Unspecified"</span>
+<span class="token key atrule">status</span><span class="token punctuation">:</span> <span class="token string">"Completed"</span>
+<span class="token key atrule">campaign</span><span class="token punctuation">:</span> <span class="token string">"KC Heroes"</span>
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> session
+  <span class="token punctuation">-</span> kc<span class="token punctuation">-</span>heroes
+  <span class="token punctuation">-</span> templar
+  <span class="token punctuation">-</span> manifester
+  <span class="token punctuation">-</span> mantis<span class="token punctuation">-</span>shrimp
+  <span class="token punctuation">-</span> automatic<span class="token punctuation">-</span>man<span class="token punctuation">-</span><span class="token number">2</span>
+  <span class="token punctuation">-</span> bulltoad
+  <span class="token punctuation">-</span> carmelita
+  <span class="token punctuation">-</span> windy
+  <span class="token punctuation">-</span> concrete
+  <span class="token punctuation">-</span> khaki<span class="token punctuation">-</span>tacs
+  <span class="token punctuation">-</span> no<span class="token punctuation">-</span>go<span class="token punctuation">-</span>zone
+  <span class="token punctuation">-</span> mark<span class="token punctuation">-</span>seargent
+  <span class="token punctuation">-</span> celica
+<span class="token key atrule">previous_session</span><span class="token punctuation">:</span> <span class="token string">"[[Session 10]]"</span>
+<span class="token key atrule">next_session</span><span class="token punctuation">:</span> <span class="token string">"[[Session 12]]"</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Session_11_0">Session 11</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-h2"><h2 data-heading="Session Summary" dir="auto" class="heading" id="Session_Summary_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Session Summary</h2></div><div class="el-p"><p dir="auto"><strong>In-Game Date:</strong> April 11, 2022<br>
+<strong>Dimension:</strong> 1  </p></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Key Events" dir="auto" class="heading" id="Key_Events_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Key Events</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p><strong>Templar vs. Windy:</strong><br>
+<a data-href="Templar" href="pcs/templar.html" class="internal-link" target="_self" rel="noopener nofollow">Templar</a> continues to swirl within the storm, firing at the armored wind-controller (dubbed <em>Windy</em>). His shot lands true, slamming Windy into the ground and breaking the cyclone apart.<br>
+He throws a rappel line onto a nearby building and swings toward the collapsing battle zone.</p>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p><strong>Manifester’s Attempt:</strong><br>
+<a data-tooltip-position="top" aria-label="Manifester" data-href="Manifester" href="pcs/manifester.html" class="internal-link" target="_self" rel="noopener nofollow">Larry Harry Jones</a> tries to create an illusion of <a data-href="Automatic Man 2.0" href="pcs/automatic-man-2.0.html" class="internal-link" target="_self" rel="noopener nofollow">Automatic Man 2.0</a>’s <strong>Celica</strong> falling onto Windy, but the illusion fails.</p>
+</li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>
+<p><strong>Windy’s Escape:</strong><br>
+Windy uses gusts of air to hurl himself into a second-story window of a nearby building.</p>
+</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>
+<p><strong>Mantis Shrimp’s Legal Interlude:</strong><br>
+<a data-href="Mantis Shrimp" href="pcs/mantis-shrimp.html" class="internal-link" target="_self" rel="noopener nofollow">Mantis Shrimp</a>’s cell phone rings—his lawyer <a data-href="Paul Hood" href="npcs/good-guys/paul-hood.html" class="internal-link" target="_self" rel="noopener nofollow">Paul Hood</a> is calling about his ongoing dispute with ARIES.<br>
+Paul also mentions that <em>“Deadpool”</em> (possibly a codename or alias) is looking for Mantis—<em>and he’s riding a Vespa.</em></p>
+</li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span>
+<p><strong>Tourists Arrive:</strong><br>
+A loudspeaker blares from a passing <strong>Mark Sargent Reality Tour</strong> bus:  </p>
+<blockquote dir="auto">
+<p>“The government thinks they can keep lying to us! First they said the Earth is round—now they say superheroes are real!”<br>
+Tourists see Mantis Shrimp and exclaim he’s real; Mark insists he’s “an animatronic.”<br>
+The bus later flees after witnessing him catch a falling car.</p>
+</blockquote>
+</li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span>
+<p><strong>Catching the Celica:</strong><br>
+The crane’s motor fails—the Celica plummets.<br>
+Mantis leaps beneath it, <strong>catching the falling car</strong> in a dramatic show of strength.<br>
+Passersby cheer as the bus speeds off in panic.<br>
+Mantis gently places <a data-href="Automatic Man 2.0" href="pcs/automatic-man-2.0.html" class="internal-link" target="_self" rel="noopener nofollow">Automatic Man 2.0</a> into the car, covers him with a jacket, and then jetpacks toward the building Windy entered.</p>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Combat in the Buildings" dir="auto" class="heading" id="Combat_in_the_Buildings_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Combat in the Buildings</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p><strong>Templar’s Ascent:</strong><br>
+Templar leaps from a burnt-out car onto an awning and heads for the second floor, where he hears a woman calling for help.</p>
+</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>
+<p><strong>Manifester’s Encounter:</strong><br>
+Inside, Manifester finds a woman in a <strong>harness chained to a pillar</strong>.<br>
+When she spots him, she <strong>turns invisible</strong>, though the chain and harness remain visible.<br>
+Manifester quips,  </p>
+<blockquote dir="auto">
+<p>“Looks like I’m interrupting something… I didn’t realize that club had moved here.”<br>
+The chain retracts around the pillar—its end unseen.</p>
+</blockquote>
+</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>
+<p><strong>Bulltoad Appears:</strong><br>
+From the shadows emerges a <strong>mutant hybrid</strong> of human, toad, and bull, who bellows,  </p>
+<blockquote dir="auto">
+<p>“You shouldn’t have come here. Now Bulltoad’s gonna have to kick your ass!”<br>
+Manifester psychically blasts him, but Bulltoad retaliates—<strong>goring Manifester and hurling him through a window</strong> onto an awning.</p>
+</blockquote>
+<p>“Carmelita, you know I only keep you chained up because of certain masculine insecurities,” Bulltoad mutters.</p>
+</li>
+<li data-line="17" dir="auto"><span class="list-bullet"></span>
+<p><strong>Templar’s Counterattack:</strong><br>
+Templar shoots Bulltoad mid-rant, <strong>instantly knocking him out</strong>, splattering goo across the room—and across Manifester.<br>
+“You killed him! You killed him, you horrible monster!” Carmelita screams, still restrained.</p>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="The Invisible Threat and Concrete Arrival" dir="auto" class="heading" id="The_Invisible_Threat_and_Concrete_Arrival_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>The Invisible Threat and Concrete Arrival</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>Mantis rockets up toward the roof in search of Windy but instead encounters <strong>a new foe made of living concrete</strong>.<br>
+The invisible woman (Carmelita) fires energy blasts at Templar and misses.<br>
+Manifester tries a psychic counterattack, but also misses.<br>
+Concrete bellows,  </p>
+<blockquote dir="auto">
+<p>“You’ll have to do better than that!”<br>
+He slams the floor, collapsing it. Templar and Mantis both <strong>plummet to the lower level</strong>.<br>
+Concrete then melds into the ceiling to pursue them.</p>
+</blockquote>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>
+<p><strong>The Climactic Blow:</strong><br>
+Mantis shrinks down, then suddenly <strong>resizes mid-punch</strong>, uppercutting the Concrete villain straight through the ceiling.<br>
+The sound of collapsing masonry echoes moments later.</p>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Aftermath and Escape" dir="auto" class="heading" id="Aftermath_and_Escape_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Aftermath and Escape</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>The heroes stabilize Bulltoad (still alive) and <strong>free Carmelita</strong>, leaving her restrained but safe.  </p>
+</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>
+<p>They prepare to exit the <strong>No-Go Zone</strong>, where <a data-href="Khaki Tacs" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Khaki Tacs</a> are stationed at the perimeter.<br>
+Manifester disguises their vehicles as Khaki Tac transports using illusion.<br>
+They successfully <strong>slip past security</strong> undetected.</p>
+</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>
+<p>In the Celica, the magnetized CD player now plays <em>“Give It Up”</em> by KC &amp; The Sunshine Band.<br>
+Inside the glovebox, they find a <strong>fancy costume catalogue</strong> addressed to <strong>a mansion on Ward Parkway</strong>—their next lead.</p>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Heroes" dir="auto" class="heading" id="Heroes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Heroes</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong><a data-href="Templar" href="pcs/templar.html" class="internal-link" target="_self" rel="noopener nofollow">Templar</a>:</strong> Marksman and acrobat; eliminates Bulltoad and leads tactical movement.  </li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span><strong><a data-tooltip-position="top" aria-label="Manifester" data-href="Manifester" href="pcs/manifester.html" class="internal-link" target="_self" rel="noopener nofollow">Larry Harry Jones</a>:</strong> Illusionist and psychic; discovers Carmelita, engages Bulltoad, and later facilitates escape.  </li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong><a data-href="Mantis Shrimp" href="pcs/mantis-shrimp.html" class="internal-link" target="_self" rel="noopener nofollow">Mantis Shrimp</a>:</strong> Strength and agility; rescues Automatic Man and defeats Concrete in a cinematic knockout.  </li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span><strong><a data-href="Automatic Man 2.0" href="pcs/automatic-man-2.0.html" class="internal-link" target="_self" rel="noopener nofollow">Automatic Man 2.0</a>:</strong> Unconscious for most of the encounter, but rescued from the Celica wreck.  </li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Supporting Cast" dir="auto" class="heading" id="Supporting_Cast_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Supporting Cast</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Carmelita:</strong> Invisible woman, formerly chained captive of Bulltoad.  </li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span><strong>Bulltoad:</strong> Mutant villain (bull/toad hybrid); defeated by Templar.  </li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>Windy:</strong> Armored wind-controller; escaped early in the fight.  </li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span><strong>Concrete:</strong> Living stone powerhouse; smashed through ceiling by Mantis Shrimp.  </li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong><a data-href="Paul Hood" href="npcs/good-guys/paul-hood.html" class="internal-link" target="_self" rel="noopener nofollow">Paul Hood</a>:</strong> Mantis Shrimp’s persistent and possibly overworked lawyer.  </li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span><strong>Mark Sargent:</strong> Flat Earth tour guide; witnesses Mantis’s heroism but remains unconvinced.  </li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Fun &amp; Poignant Moments" dir="auto" class="heading" id="Fun_&amp;_Poignant_Moments_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Fun &amp; Poignant Moments</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>The “Mark Sargent Reality Tours” scene—perfect Kansas City absurdity meets meta-comedy.  </li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Mantis catching the Celica mid-fall—a classic comic-book splash page moment.  </li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Manifester’s line to the invisible woman: “Didn’t realize that club moved here.”  </li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>The CD player humor—Mantis’s Celica now permanently tied to Kansas City’s disco heritage.</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="Raw Session Notes" dir="auto" class="heading" id="Raw_Session_Notes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Raw Session Notes</h2></div><div class="el-p"><p dir="auto">Session 11: 12/17/23<br>
+Templar swirling in the whirlwind, shoots at armor guy. Hits him, blasting him to the ground. Whirlwind starts to dissipate. Templar throws a rappel line onto the tallest building and swings towards Windy.<br>
+Manifester attempts to create an illusion of the Celica falling onto Windy, but fails.<br>
+Windy uses wind to fly into the second floor of the shorter building.<br>
+Mantis’ cellphone ring. Talks to Paul Hood, his lawyer, asking about fight with ARIES.  He says Deadpool ???? is looking for Mantis, riding his Vespa.<br>
+Can hear loudspeaker of someone making announcement—the government thinks they can keep lying to us. First they said Earth is round, now they say superheroes are real. Mark Seargent Reality Tours on side of bus we see. Hear tourists saying “Mantis Shrimp is real!” Mark S says “No no, that’s animatronic”<br>
+Mantis opens passenger door, and Automatic Man falls to the ground. Mantis drops down and pulls AM out of the area where car might fall.<br>
+Templar moves across street, leaps from a burnt-out car onto an awning towards Wind Guy and the woman calling for help.<br>
+Manifest teleports into the other building, second floor. Sees a woman wearing a harness with chain attached. She sees him then turns invisible, but harness and chain are still visible. “Looks like I’m interrupting something… I didn’t realize that club had moved here.” Chain goes back around a pillar and can’t see the end.<br>
+They hear the engine of the crane give out. Car is falling. Mantis runs under and catches the car. People on the bus say “He’s not animatronic! Mantis Shrimp is real.” The tour bus quickly drives away with Mark grumbling.<br>
+…[new initiative]<br>
+Manifester sees Human-Toad-Bull combo. He says “You shouldn’t have come here. Now Bulltoad is gonna have to kick your ass!”<br>
+Manifester blasts Bulltoad with psychic blast. Bulltoad comes bounding towards Manifester, jiggly and gores Manifester, pitching him out window onto awning.<br>
+“Woman, see what you made me do? Carmelita you know I only keep you chained up because of certain masculine insecurities.”<br>
+Templar shoots Bulltoad, and takes him down to 0; frog goo splatters all over Manifester.<br>
+“You killed him! You killed him, you horrible monster!”<br>
+Mantis puts AM into the Celica gently, covers him with a jacket, then jet-packs to where he saw Windy-Armor flee.<br>
+Energy blast from invisible woman flies past Templar, who is now visible.<br>
+Manifester psychic blasts at woman but misses.<br>
+Bulltoad is breathing but incapacitated.<br>
+Templar runs towards woman, she blasts at him but misses again, again impacting the building.<br>
+Mantis doesn’t see, but hear and feel wind picking up. Mantis has no idea where he is.<br>
+Manifester attempts to make an illusion of Khaki Tacs storming the building, but fails.<br>
+Templar tackles her. Zip ties her.<br>
+Mantis hears a rumbling sound but not soon enough. Gets sucker-punched, 15 damage, flies skittering across the floor. Whoever punched him descends from the ceiling, looks like living concrete in human form.<br>
+Mantis heads towards new threat, shrinking down. (+6 defense)<br>
+Manifester misses with another psychic blast at concrete guy. Templar shoots him, but bullet appears to bounce off him.<br>
+Concrete says “You’re gonna have to do better than that,” and smacks the ground and damages the ground. Mantis and Templar both fall through floor to the level below.<br>
+Concrete reaches up and absorbs himself up into the ceiling.<br>
+Mantis flies up through the hole in the floor back to the second floor.<br>
+Manifester psychic blasts concrete guy for 1 stun dmg.<br>
+Templar throws out rope and climbs back up to second floor.<br>
+Concrete swings at Mantis and misses. Mantis swings back, unshrinking, uppercutting and smashing concrete up and out through the ceiling and much later, there’s the sound of concrete falling.<br>
+Situation resolved; they set Carmelita back up and reassure her the Bulltoad is ok. They loosen but do not remove her bounds.<br>
+Now they need to get past the Khaki Tacts on the outskirts of the No-Go Zone. Manifester gets into the Celica and the CD player, scrambled by the magnet, now plays “Give It Up” by KC &amp; The Sunshine Band. Manifester then disguises vehicles as Khaki Tac vehicles, and they slip past without issue.<br>
+In Celica they find a fancy costume catalogue, addressed to a house on Ward Parkway—basically a mansion.</p></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
