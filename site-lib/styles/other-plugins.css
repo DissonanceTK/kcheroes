@@ -1,0 +1,1 @@
+body:not(.is-grabbing):has(.tree-item-self.hovered) .tree-item-self.is-clickable:not(.hovered):not(.is-active):hover{color:var(--nav-item-color);background-color:var(--nav-item-background);font-weight:var(--nav-item-weight)}
